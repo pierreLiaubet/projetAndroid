@@ -3,4 +3,5 @@
     <string name="blueTalkie">Blue Talkie</string>
     <string name="pseudo">Votre Pseudo</string>
     <string name="GO">Allumer le talkie</string>
+    <string name="ActivBT">Activer Bluetooth</string>
 </resources>

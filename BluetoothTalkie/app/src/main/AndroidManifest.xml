@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pierreliaubet.bluetoothtalkie">
 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,9 +18,7 @@
             </intent-filter>
         </activity>
 
-        <uses-permission android:name="android.permission.BLUETOOTH" />
-        <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-        <uses-permission android:name= "android.permission.RECORD_AUDIO" />
+
 
 
     </application>
