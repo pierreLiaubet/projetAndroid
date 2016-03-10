@@ -4,4 +4,7 @@
     <string name="pseudo">Votre Pseudo</string>
     <string name="GO">Allumer le talkie</string>
     <string name="ActivBT">Activer Bluetooth</string>
+    <string name="image_talkie">image_talkie</string>
+    <string name="logo">logo</string>
+    <string name="logo_en_gif">logo en gif</string>
 </resources>

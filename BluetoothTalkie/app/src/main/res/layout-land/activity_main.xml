@@ -43,8 +43,9 @@
         android:layout_height="wrap_content"
         android:text="@string/ActivBT"
         android:id="@+id/switch2"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="29dp"
+        android:checked="false"
         android:layout_below="@+id/button2"
-        android:layout_toLeftOf="@+id/editText2"
-        android:layout_toStartOf="@+id/editText2" />
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2" />
 </RelativeLayout>
