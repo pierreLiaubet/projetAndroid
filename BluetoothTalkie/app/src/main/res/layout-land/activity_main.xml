@@ -42,7 +42,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ActivBT"
-<<<<<<< HEAD
         android:id="@+id/bt"
         android:layout_below="@+id/activate"
         android:layout_toLeftOf="@+id/pseudo"
@@ -50,11 +49,4 @@
         android:layout_marginRight="22dp"
         android:layout_marginEnd="22dp"
         android:layout_marginTop="31dp" />
-=======
-        android:id="@+id/switch2"
-        android:layout_marginTop="32dp"
-        android:layout_below="@+id/button2"
-        android:layout_toLeftOf="@+id/editText2"
-        android:layout_toStartOf="@+id/editText2" />
->>>>>>> origin/master
 </RelativeLayout>
