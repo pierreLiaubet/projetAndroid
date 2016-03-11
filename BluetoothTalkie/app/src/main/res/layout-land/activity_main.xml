@@ -47,6 +47,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/activate"
         android:layout_alignStart="@+id/activate"
-        android:layout_marginTop="27dp" />
+        android:layout_marginTop="15dp" />
 
 </RelativeLayout>
