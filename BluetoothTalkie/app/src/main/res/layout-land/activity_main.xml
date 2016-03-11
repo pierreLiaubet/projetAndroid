@@ -13,8 +13,9 @@
         android:background="#94bbbbbb"
         android:textAlignment="center"
         android:hint="@string/pseudo"
-        android:layout_below="@+id/imageView3"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -37,16 +38,15 @@
         android:layout_marginRight="22dp"
         android:layout_marginEnd="22dp"
         android:layout_marginTop="31dp" />
-<<<<<<< HEAD
-=======
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView3"
+        android:id="@+id/logo"
         android:src="@drawable/blue_talkie2"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/activate"
-        android:layout_alignEnd="@+id/activate" />
->>>>>>> master
+        android:layout_alignLeft="@+id/activate"
+        android:layout_alignStart="@+id/activate"
+        android:layout_marginTop="27dp" />
+
 </RelativeLayout>

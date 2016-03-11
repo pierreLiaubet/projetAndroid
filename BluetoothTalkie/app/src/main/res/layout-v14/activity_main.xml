@@ -19,7 +19,7 @@
         android:background="#94bbbbbb"
         android:textAlignment="center"
         android:hint="@string/pseudo"
-        android:layout_below="@+id/imageView2"
+        android:layout_below="@+id/logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
 
@@ -47,7 +47,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
+        android:id="@+id/logo"
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/activate"
         android:layout_alignEnd="@+id/activate"
