@@ -10,29 +10,18 @@
     tools:context="com.pierreliaubet.bluetoothtalkie.MainActivity"
     android:background="#9d9a9a">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/blueTalkie"
-        android:id="@+id/title"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
-        android:textColor="#055dc9" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/pseudo"
-        android:layout_marginTop="56dp"
-        android:layout_below="@+id/title"
-        android:layout_centerHorizontal="true"
         android:background="#94bbbbbb"
         android:textAlignment="center"
-        android:hint="@string/pseudo" />
+        android:hint="@string/pseudo"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -40,9 +29,9 @@
         android:text="@string/GO"
         android:id="@+id/activate"
         android:background="#2560c7"
+        android:layout_marginTop="33dp"
         android:layout_below="@+id/pseudo"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="59dp" />
+        android:layout_centerHorizontal="true" />
 
     <Switch
         android:layout_width="wrap_content"
@@ -53,5 +42,14 @@
         android:layout_below="@+id/activate"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/blue_talkie2"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/activate"
+        android:layout_alignStart="@+id/activate" />
 
 </RelativeLayout>

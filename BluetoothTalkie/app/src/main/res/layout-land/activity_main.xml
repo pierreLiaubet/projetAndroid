@@ -4,28 +4,16 @@
     android:layout_height="match_parent"
     android:background="#9d9a9a">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/blueTalkie"
-        android:id="@+id/title"
-        android:textColor="#055dc9"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/pseudo"
-        android:layout_marginTop="28dp"
         android:background="#94bbbbbb"
         android:textAlignment="center"
         android:hint="@string/pseudo"
-        android:layout_below="@+id/title"
+        android:layout_below="@+id/imageView3"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -42,7 +30,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ActivBT"
-<<<<<<< HEAD
         android:id="@+id/bt"
         android:layout_below="@+id/activate"
         android:layout_toLeftOf="@+id/pseudo"
@@ -50,11 +37,13 @@
         android:layout_marginRight="22dp"
         android:layout_marginEnd="22dp"
         android:layout_marginTop="31dp" />
-=======
-        android:id="@+id/switch2"
-        android:layout_marginTop="32dp"
-        android:layout_below="@+id/button2"
-        android:layout_toLeftOf="@+id/editText2"
-        android:layout_toStartOf="@+id/editText2" />
->>>>>>> origin/master
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/blue_talkie2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/activate"
+        android:layout_alignEnd="@+id/activate" />
 </RelativeLayout>
