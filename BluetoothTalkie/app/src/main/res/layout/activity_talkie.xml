@@ -2,16 +2,31 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="#149f98">
+    android:background="@drawable/talkie_essai2">
 
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/talkie"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/talkie_essai2"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="0dp"
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appareils"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="0dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="260dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/talk"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp" />
 </RelativeLayout>
