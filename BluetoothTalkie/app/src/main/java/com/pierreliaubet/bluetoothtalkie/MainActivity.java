@@ -65,17 +65,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void checkPairedDevices(){
-        Set<BluetoothDevice> pairedDevices=btAdpt.getBondedDevices();
-        if (pairedDevices.size()>0){
-            //On le laisse chosir
-        }
-        for(BluetoothDevice device: pairedDevices){
-            mArrayAdapter.add(device.getName() + "\n"+device.getAddress());
-        }
-
-    }
-
     public void demarrer(View sender)
     {
         if (btAdpt.isEnabled())
