@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.pierreliaubet.bluetoothtalkie.MainActivity"
-    android:background="#9d9a9a">
+    android:background="@drawable/bg">
 
     <EditText
         android:layout_width="wrap_content"
@@ -31,7 +31,8 @@
         android:background="#2560c7"
         android:layout_marginTop="33dp"
         android:layout_below="@+id/pseudo"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="demarrer" />
 
     <Switch
         android:layout_width="wrap_content"
