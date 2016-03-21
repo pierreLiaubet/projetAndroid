@@ -1,0 +1,4 @@
+dans Client 
+	dans le run on lit toujours
+	et on a une méthide pour écrire dédiée en public
+	de notre activity talkie on aura a faire un Client.write(LESTREAM) tant que le bouton est appuyé 
